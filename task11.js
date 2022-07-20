@@ -76,28 +76,28 @@
 
 //                   ARROW FUNCTON
 
-class students {
-    constructor(name , age , phoneNumber, boardMarks){
-        this.name=name,
-        this.age=age ,
-        this.phoneNumber=phoneNumber,
-        this.boardMarks=boardMarks
-    }
-    eligibleAge(miniAge){
-         return (miniMarks) => {
-            if(this.age>miniAge && this.boardMarks>miniMarks){
-                console.log(this.name +" is eligible for placement")
-            }
-            else {
-                console.log(this.name +" is not eligible for placement")
-            }
-         }
-} 
+// class students {
+//     constructor(name , age , phoneNumber, boardMarks){
+//         this.name=name,
+//         this.age=age ,
+//         this.phoneNumber=phoneNumber,
+//         this.boardMarks=boardMarks
+//     }
+//     eligibleAge(miniAge){
+//          return (miniMarks) => {
+//             if(this.age>miniAge && this.boardMarks>miniMarks){
+//                 console.log(this.name +" is eligible for placement")
+//             }
+//             else {
+//                 console.log(this.name +" is not eligible for placement")
+//             }
+//          }
+// } 
 
-}
-let student1 =new students("dev",15,4665,55)
-let student2 =new students("ram",16,5466,35)
-let student3 =new students("savan",17,565656,85)
-let student4 =new students("jay",18,65656656,95)
-let student5 =new students("yash",19,646666,40)
-student3.eligibleAge(18)(40)
+// }
+// let student1 =new students("dev",15,4665,55)
+// let student2 =new students("ram",16,5466,35)
+// let student3 =new students("savan",17,565656,85)
+// let student4 =new students("jay",18,65656656,95)
+// let student5 =new students("yash",19,646666,40)
+// student3.eligibleAge(18)(40)
