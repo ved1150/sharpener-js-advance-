@@ -101,3 +101,6 @@
 // let student4 =new students("jay",18,65656656,95)
 // let student5 =new students("yash",19,646666,40)
 // student3.eligibleAge(18)(40)
+
+
+//finish
